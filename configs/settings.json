@@ -1,0 +1,21 @@
+{
+  "USE_MOUSE_AIM": true,
+  "CONFIDENCE_THRESHOLD": 0.55,
+  "DETECTION_RADIUS": 120,
+  "AIM_SMOOTHING": 0.20,
+  "TARGET_LOCK_STRENGTH": 1.6,
+  "SHOOTING_HEIGHT_OFFSET": 0.20,
+  "DEADZONE_RADIUS": 5,
+  "SENSITIVITY_SCALING": 2.50,
+  "PID_KP": 0.2474,
+  "PID_KI": 0.0755,
+  "PID_KD": 0.0673,
+  "PROFILE": "GENERAL",
+  "HOTKEY_TOGGLE": "F1",
+  "CUDA": true,
+  "SERIAL": {
+    "port": "auto",
+    "baud": 115200,
+    "mode": "PreSolve"
+  }
+}

@@ -1,0 +1,7 @@
+onnxruntime-gpu
+ultralytics
+opencv-python
+mss
+pygame
+pyserial
+numpy

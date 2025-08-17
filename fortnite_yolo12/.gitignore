@@ -1,0 +1,76 @@
+# -------------------------
+# Python cache / build files
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dll
+*.dylib
+
+# Byte-compiled / optimized / DLL files
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+develop-eggs/
+.installed.cfg
+*.manifest
+*.spec
+
+# -------------------------
+# Virtual environments
+# -------------------------
+.venv/
+venv/
+env/
+ENV/
+*.env
+
+# -------------------------
+# Jupyter Notebook checkpoints
+# -------------------------
+.ipynb_checkpoints
+
+# -------------------------
+# Model training datasets
+# -------------------------
+# Ignore all raw training data
+dataset/
+datasets/
+data/
+images/
+images*/      # e.g. images_train, images_val
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+*.tif
+*.webp
+*.gif
+*.svg
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Annotation files
+*.xml
+*.json
+*.yaml
+*.yml
+*.txt
+-------------------e Learning models-------------------s
+
+# TensorBoard / logs
+logs/
+runs/
+
+# -------------------------
+# OS generated files
+# -------------------------
+.DS_Store
+Thumbs.db

@@ -1,0 +1,39 @@
+@'
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# VSCode
+.vscode/
+
+# Build / deps / vendor
+build/
+dist/
+out/
+bin/
+obj/
+_deps/
+
+# Data & outputs
+data/
+runs/
+logs/
+
+# Model/engine files (use Git LFS if you must version these)
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+*.weights
+*.bin
+
+# Archives & media
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.mp4
+*.mov
+'@ | Out-File -Encoding utf8 .gitignore
